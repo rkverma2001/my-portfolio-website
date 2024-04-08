@@ -3,7 +3,7 @@ import ecommerceWeb from "../assets/portfoliosWeb/ecommerce-website.png";
 import bankOfReact from "../assets/portfoliosWeb/bank-of-react.png";
 import ageCalculator from "../assets/portfoliosWeb/age-calculator.png";
 import stopWatch from "../assets/portfoliosWeb/stopwatch.png";
-import dadJokesGenerator from "../assets/portfoliosWeb/dad-jokes-generator.png";
+import movix from "../assets/portfoliosWeb/movix.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -21,28 +21,27 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      src: movix,
+      demo: "https://movix.web.app/",
+      gitCode: "https://github.com/rkverma2001/Movix",
+    },
+    {
+      id: 4,
       src: bankOfReact,
       demo: "https://vite-firebase-6fed2.web.app/",
       gitCode: "https://github.com/rkverma2001/Bank-of-React",
     },
     {
-      id: 4,
+      id: 5,
       src: ageCalculator,
       demo: "https://rkverma2001.github.io/Age-Calculator/",
       gitCode: "https://github.com/rkverma2001/Age-Calculator",
     },
     {
-      id: 5,
+      id: 6,
       src: stopWatch,
       demo: "https://rkverma2001.github.io/stopwatch/",
       gitCode: "https://github.com/rkverma2001/stopwatch",
-    },
-    {
-      id: 6,
-      src: dadJokesGenerator,
-      demo: "https://rkverma2001.github.io/DOM-Projects/Dad%20Jokes%20Generator/index.html",
-      gitCode:
-        "https://github.com/rkverma2001/DOM-Projects/tree/main/Dad%20Jokes%20Generator",
     },
   ];
 
